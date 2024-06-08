@@ -1,0 +1,43 @@
+.portfolio {
+
+}
+.portfolio__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.portfolio__slider {
+
+}
+.portfolio__list {
+
+}
+.portfolio__item {
+
+}
+.card {
+
+}
+.card__picture {
+
+}
+.card__data {
+
+}
+.card__client {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+.card__date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+}
+.card__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+}
