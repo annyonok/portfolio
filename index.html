@@ -5,7 +5,12 @@
     <meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/index.css">
+
+    <script defer src="js/jquery-3.7.1.min.js"></script>
+    <script defer src="js/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
 
 <body class="page">
@@ -90,9 +95,9 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Портфолио</h2>
-                <div class="portfolio__slider">
-                    <ul class="portfolio__list">
-                        <li class="portfolio__item">
+                <div class="portfolio__slider swiper">
+                    <ul class="portfolio__list swiper-wrapper">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/cinema.jpg" alt="">
 
@@ -105,7 +110,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/iphone.jpg" alt="">
 
@@ -118,7 +123,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/go.jpg" alt="">
 
@@ -131,7 +136,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/friendly_house.jpg" alt="">
 
@@ -144,7 +149,7 @@
                             </article>
                         </li>
 
-                        <li class="portfolio__item">
+                        <li class="portfolio__item swiper-slide">
                             <article class="card">
                                 <img class="card__picture" src="img/dom.jpg" alt="">
 
@@ -157,11 +162,73 @@
                             </article>
                         </li>
                     </ul>
+
+                    <button class="portfolio__arrow portfolio__arrow_left"></button>
+                    <button class="portfolio__arrow portfolio__arrow_right"></button>
                 </div>
             </div>
         </section>
 
     </main>
+
+    <!-- Modal -->
+    <div class="page__overlay page__overlay_modal">
+        <div class="modal">
+            <h2 class="modal__title">Заполните форму и я свяжусь с вами</h2>
+
+            <form class="modal__form callback">
+
+            <fieldset class="callback__group">
+                <legend class="visually-hidden">Личные данные</legend>
+                <label class="callback__label">
+                    <span class="callback__label-text">ФИО</span>
+                    <input class="callback__input" type="text" name="bio" placeholder="Введите ваше ФИО">
+                </label>
+
+                <label class="callback__label">
+                    <span class="callback__label-text">Телефон</span>
+                    <input class="callback__input" type="text" name="phone" placeholder="Введите ваш номер телефона">
+                </label>
+            </fieldset>
+
+                <fieldset class="callback__group connect">
+                    <legend class="connect__title">Где удобнее связаться?</legend>
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="telegram">
+                        <span class="connect__text">Телеграмм</span>
+                    </label>
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="whatsup">
+                        <span class="connect__text">Whatsup</span>
+                    </label>
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="call">
+                        <span class="connect__text">Позвонить</span>
+                    </label>
+
+                    <label class="connect__label">
+                        <input class="connect__radio" type="radio" name="connect" value="viber">
+                        <span class="connect__text">Viber</span>
+                    </label>
+
+                </fieldset>
+
+                <button class="callback__btn" type="submit">Заказать</button>
+
+            </form>
+
+            <button class="modal__close">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 -0.707107 0.707106 0.707107 0 20.625)" fill="#282626"/>
+                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 0.707107 -0.707106 0.707107 1.375 0)" fill="#282626"/>
+                </svg>
+            </button>
+
+        </div>
+    </div>
     
 </body>
 </html>

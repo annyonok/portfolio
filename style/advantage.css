@@ -48,8 +48,8 @@
     background-image: url("../img/copyright.svg");
 }
 
-@media (min-width: 480x) {
-    .advantage__list {
+@media (min-width: 480px) {
+    .advantage__list { 
         gap: 40px;
     }
     .advantage__title {

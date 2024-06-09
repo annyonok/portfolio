@@ -60,6 +60,47 @@ section {
     padding: 30px 0;
 }
 
+/* Modal */
+.page__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    overflow: auto;
+    padding: 15px;
+    display: flex;
+}
+
+.page__overlay_modal {
+    display: none;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+legend {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
 @media (min-width: 768px) {
     .container {
         padding: 0 40px;
