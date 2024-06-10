@@ -5,7 +5,7 @@
     <meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/index.css">
 
     <script defer src="js/jquery-3.7.1.min.js"></script>
@@ -23,29 +23,17 @@
                 <ul class="contacts__list">
                     <li class="contacts__item">
                         <p class="contacts__head">Телефон</p>
-                        <a class="contacts__link" href="tel:+79373838323">+7 (937) 383 83-23</a>
+                        <a class="contacts__link" href="tel:+79591008773">+7 (959) 100 87-73</a>
                     </li>
                     <li class="contacts__item">
                         <p class="contacts__head">Email</p>
-                        <a class="contact__link" href="mailto:sorokinKir@gmail.com">sorokinkir@gmail.com</a>
+                        <a class="contact__link" href="mailto:annyonok@ya.ru">annyonok@ya.ru</a>
                     </li>
                     <li class="contacts__item">
-                        <p class="contacts__head contacts__head_social">Соц. сети</p>
-                        <ul class="contacts__social-list">
+                        <p class="contacts__head contacts__head_social">Телеграмм</p>
+                        <ul class="contacts__social-list">                          
                             <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_whatsapp"></a>
-                            </li>
-                            
-                            <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_instagram"></a>
-                            </li>
-                            
-                            <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_facebook"></a>
-                            </li>
-                            
-                            <li class="contacts__social-item">
-                                <a href="#" class="contacts__social-link contacts__social-link_telegram"></a>
+                                <a class="contacts__social-link contacts__social-link_telegram" target="_blank" href="https://t.me/annyonok"></a>
                             </li>
                         </ul>
                     </li>
@@ -61,17 +49,25 @@
         <!-- Present -->
         <section class="present">
             <div class="container present__container">
-                <img class="present__photo" src="img/photo.jpg" alt="Фотография Кир Сорокин">
-
+                
                 <div class="present__content">
                     <hgroup class="present__group-title">
-                    <h1 class="present__title">Кир Сорокин</h1>
-                    <h2 class="present__subtitle">Разработчик сайтов</h2>
+                    <h1 class="present__title">Анна Воробьева</h1>
+                    <h2 class="present__subtitle">фронтенд-разработчик</h2>
                     </hgroup>
 
-                    <p class="present__description">Меня зовут Кир Сорокин, я разработчик сайтов с&nbsp;опытом 1&nbsp;год</p>
+                    <p class="present__description">Меня зовут Анна, я начинающий фронтенд-разработчик</p>
 
-                    <button class="present__order-btn">Заказать</button>
+                </div>
+
+                <div class="present__about">
+                    <h3 class="present__about-title">Гражданство:</h3>
+                    <p class="present__about-description">РФ</p>
+                    <h3 class="present__about-title">Занятость:</h3>
+                    <p class="present__about-description">Удаленная работа</p>
+                    <h3 class="present__about-title">Языки:</h3>
+                    <p class="present__about-description present__about_ru">русский: C2</p>
+                    <p class="present__about-description">английский: B1</p>
                 </div>
             </div>
         </section>
@@ -80,13 +76,14 @@
         <section class="advantage">
             <div class="container">
                 <h2 class="advantage__title">Почему я</h2>
+                <p class="present__description">Я фронтенд-разработчик с желанием расти и развиваться в данном направлении. Закончила онлайн-курсы по HTML / CSS / JS и ищу возможность применить знания на практике.</p>
                 <ul class="advantage__list">
-                    <li class="advantage__item advantage__item_stack">Стек: HTML, CSS, PHP, JavaScript, React</li>
-                    <li class="advantage__item advantage__item_mockup">Создам mockup под ваш проект</li>
-                    <li class="advantage__item advantage__item_inclusive">Инклюзивность</li>
+                    <li class="advantage__item advantage__item_stack">Стек: HTML, CSS, JavaScript</li>
+                    <li class="advantage__item advantage__item_experience">Небольшой опыт: jQuery, PHP, CMS Wordpress</li>
+                    <li class="advantage__item advantage__item_bem">Использование Методологии БЭМ</li>
+                    <li class="advantage__item advantage__item_pixel"> Работа с Pixel Perfect</li>
                     <li class="advantage__item advantage__item_adapt">Адаптивная и кроссбраузерная вёрстка</li>
                     <li class="advantage__item advantage__item_clear">Чистый валидный код</li>
-                    <li class="advantage__item advantage__item_copyright">Копирайтинг</li>
                 </ul>
             </div>
         </section>
@@ -99,23 +96,10 @@
                     <ul class="portfolio__list swiper-wrapper">
                         <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="img/cinema.jpg" alt="">
+                                <a class="card__picture" href="https://annyonok.github.io/aperture/" target="_blank"><img src="img/aperture.jpg" alt="Студия фотографии"></a>
 
                                 <p class="card__data">
-                                    <span class="card__client">Клиент: Cinema</span>
-                                    <time class="card__date" datetime="2024">год: 2024</time>
-                                </p>
-
-                                <h3 class="card__title">Многостраничный сайт</h3>
-                            </article>
-                        </li>
-
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <img class="card__picture" src="img/iphone.jpg" alt="">
-
-                                <p class="card__data">
-                                    <span class="card__client">Клиент: Full Apple</span>
+                                    <span class="card__client">Aperture Studios</span>
                                     <time class="card__date" datetime="2024">год: 2024</time>
                                 </p>
 
@@ -125,10 +109,10 @@
 
                         <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="img/go.jpg" alt="">
+                                <a class="card__picture" href="#"><img src="#" alt=""></a>
 
                                 <p class="card__data">
-                                    <span class="card__client">Клиент: Game Over</span>
+                                    <span class="card__client"></span>
                                     <time class="card__date" datetime="2024">год: 2024</time>
                                 </p>
 
@@ -138,10 +122,10 @@
 
                         <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="img/friendly_house.jpg" alt="">
+                                <a class="card__picture" href="#"><img src="#" alt=""></a>
 
                                 <p class="card__data">
-                                    <span class="card__client">Клиент: Friendly House</span>
+                                    <span class="card__client"></span>
                                     <time class="card__date" datetime="2024">год: 2024</time>
                                 </p>
 
@@ -151,10 +135,23 @@
 
                         <li class="portfolio__item swiper-slide">
                             <article class="card">
-                                <img class="card__picture" src="img/dom.jpg" alt="">
+                                <a class="card__picture" href="#"><img src="#" alt=""></a>
 
                                 <p class="card__data">
-                                    <span class="card__client">Клиент: ItalGroup boutique</span>
+                                    <span class="card__client"></span>
+                                    <time class="card__date" datetime="2024">год: 2024</time>
+                                </p>
+
+                                <h3 class="card__title">Landing-page</h3>
+                            </article>
+                        </li>
+
+                        <li class="portfolio__item swiper-slide">
+                            <article class="card">
+                                <a class="card__picture" href="#"><img src="#" alt=""></a>
+
+                                <p class="card__data">
+                                    <span class="card__client"></span>
                                     <time class="card__date" datetime="2024">год: 2024</time>
                                 </p>
 
@@ -170,65 +167,6 @@
         </section>
 
     </main>
-
-    <!-- Modal -->
-    <div class="page__overlay page__overlay_modal">
-        <div class="modal">
-            <h2 class="modal__title">Заполните форму и я свяжусь с вами</h2>
-
-            <form class="modal__form callback">
-
-            <fieldset class="callback__group">
-                <legend class="visually-hidden">Личные данные</legend>
-                <label class="callback__label">
-                    <span class="callback__label-text">ФИО</span>
-                    <input class="callback__input" type="text" name="bio" placeholder="Введите ваше ФИО">
-                </label>
-
-                <label class="callback__label">
-                    <span class="callback__label-text">Телефон</span>
-                    <input class="callback__input" type="text" name="phone" placeholder="Введите ваш номер телефона">
-                </label>
-            </fieldset>
-
-                <fieldset class="callback__group connect">
-                    <legend class="connect__title">Где удобнее связаться?</legend>
-
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="telegram">
-                        <span class="connect__text">Телеграмм</span>
-                    </label>
-
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="whatsup">
-                        <span class="connect__text">Whatsup</span>
-                    </label>
-
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="call">
-                        <span class="connect__text">Позвонить</span>
-                    </label>
-
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="viber">
-                        <span class="connect__text">Viber</span>
-                    </label>
-
-                </fieldset>
-
-                <button class="callback__btn" type="submit">Заказать</button>
-
-            </form>
-
-            <button class="modal__close">
-                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 -0.707107 0.707106 0.707107 0 20.625)" fill="#282626"/>
-                    <rect width="29.1681" height="1.94454" rx="0.972271" transform="matrix(0.707106 0.707107 -0.707106 0.707107 1.375 0)" fill="#282626"/>
-                </svg>
-            </button>
-
-        </div>
-    </div>
     
 </body>
 </html>

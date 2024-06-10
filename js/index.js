@@ -10,11 +10,19 @@ new Swiper('.swiper', {
     480: {
       grid: {
         fill: 'row',
-        rows: 2
+        rows: 1
       }
     },
     // when window width is >= 768px
     768: {
+        slidesPerView: 2,
+        grid: {
+            fill: 'row',
+            rows: 2
+          }        
+        },
+    // when window width is >= 1440px
+    1440: {
         slidesPerView: 2,
         grid: {
             fill: 'row',
@@ -27,13 +35,4 @@ new Swiper('.swiper', {
 // Menu
 $('.header__contacts-burger').click(() => {
     $('.header__contacts').slideToggle().css('display', 'flex');
-})
-
-// Modal
-$('.present__order-btn').click(() => {
-    $('.page__overlay_modal').fadeIn(400);
-})
-
-$('.modal__close').click(() => {
-    $('.page__overlay_modal').fadeOut(400);
 })

@@ -1,6 +1,13 @@
-<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M36.8745 44.7509L51.3 30.3255L36.8745 15.9" stroke="#E87C40" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.6408 15.9L3.21533 30.3255L17.6408 44.7509" stroke="#E87C40" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M43.8745 37.7509L58.3 23.3255L43.8745 8.90002" stroke="#110303" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24.6408 8.90002L10.2153 23.3255L24.6408 37.7509" stroke="#110303" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 61 61" style="enable-background:new 0 0 61 61;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#E87C40;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path class="st0" d="M36.9,44.8l14.4-14.4L36.9,15.9"/>
+<path class="st0" d="M17.6,15.9L3.2,30.3l14.4,14.4"/>
+<path class="st1" d="M43.9,37.8l14.4-14.4L43.9,8.9"/>
+<path class="st1" d="M24.6,8.9L10.2,23.3l14.4,14.4"/>
 </svg>

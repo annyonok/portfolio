@@ -1,5 +1,5 @@
 .header {
-    background-color: #A1B7C8;
+    background-color: #0c0a0a;
     min-height: 60px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -18,12 +18,12 @@
 .header__contacts {
     display: none;
     position: absolute;
-    background-color: #A1B7C8;
     top: 61px;
     left: 0;
     right: 0;
     padding: 30px 15px;
     color: #ffffff;
+    background-color: #0c0a0a;
 }
 
 .contacts__item {
@@ -64,18 +64,12 @@
     height: 26px;
     background-position: center;
     background-repeat: no-repeat;
+    transform: scale(1);
+    transition: transform 0.5s;
 }
 
-.contacts__social-link_whatsapp {
-    background-image: url("../img/whatsapp.svg");
-}
-
-.contacts__social-link_instagram {
-    background-image: url("../img/instagram.svg");
-}
-
-.contacts__social-link_facebook {
-    background-image: url("../img/facebook.svg");
+.contacts__social-link:hover {
+    transform: scale(1.2);
 }
 
 .contacts__social-link_telegram {
@@ -107,6 +101,7 @@
     .contacts__list {
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .contacts__item {

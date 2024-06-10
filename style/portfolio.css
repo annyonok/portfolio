@@ -1,20 +1,9 @@
-.portfolio {
-
-}
 .portfolio__title {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
     text-transform: uppercase;
     margin-bottom: 40px;
-}
-
-.portfolio__list {
-
-
-}
-.portfolio__item {
-
 }
 
 .card {
@@ -28,18 +17,19 @@
 
 .card__picture {
     align-self: center;
-    width: 155px;
-    height: 92px;
-    padding: 5px 18px 12px;
+    width: 165px;
+    height: 102px;
+    padding: 0 18px 0;
     background-image: url("../img/macbook.svg");
     background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
 }
 
 .card__data {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 
 .card__client {
@@ -49,14 +39,14 @@
 }
 
 .card__date {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 140%;
 }
 
 .card__title {
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 120%;
 }
 
@@ -81,10 +71,12 @@
 }
 
 .portfolio__arrow_left {
-    left: 0;
+    transform: scale(1);
 }
 
 .portfolio__arrow_right {
+    transform: scale(1);
+    transition: transform 0.5s;
     right: 0;
     transform: rotate(180deg);
 }
@@ -95,12 +87,18 @@
 }
 
 @media (min-width: 480px) {
+    .card__picture {
+        width: 280px;
+        height: 200px;
+        padding: 6px 26px 15px;
+    }
+    
     .portfolio__slider {
         max-width: 340px;
     }
 
     .portfolio__title {
-        font-size: 40px;
+        font-size: 32px;
     }
 }
 
@@ -122,7 +120,11 @@
     }
 
     .portfolio__title {
-        font-size: 50px;
+        font-size: 34px;
+    }
+
+    .card__data {
+        justify-content: space-around;
     }
 
     .card__date {
@@ -130,16 +132,10 @@
     }
 
     .card__title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .card {
         max-width: 366px;
-    }
-
-    .card__picture {
-        width: 213px;
-        height: 126px;
-        padding: 6px 26px 15px;
     }
 }
