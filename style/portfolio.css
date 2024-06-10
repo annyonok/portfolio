@@ -40,8 +40,8 @@
 
 .card__date {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 140%;
+    font-size: 12px;
+    line-height: 120%;
 }
 
 .card__title {
@@ -71,12 +71,10 @@
 }
 
 .portfolio__arrow_left {
-    transform: scale(1);
+    left: 0;
 }
 
 .portfolio__arrow_right {
-    transform: scale(1);
-    transition: transform 0.5s;
     right: 0;
     transform: rotate(180deg);
 }
@@ -128,7 +126,7 @@
     }
 
     .card__date {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .card__title {
