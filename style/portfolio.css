@@ -23,7 +23,7 @@
     background-image: url("../img/macbook.svg");
     background-size: cover;
     background-position: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .card__data {
@@ -46,7 +46,7 @@
 
 .card__title {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 120%;
 }
 
@@ -132,7 +132,7 @@
     }
 
     .card__title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .card {
