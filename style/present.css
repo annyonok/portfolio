@@ -60,10 +60,6 @@
     .present__subtitle {
         font-size: 18px;
     }
-
-    .present__description {
-        font-size: 16px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -81,10 +77,6 @@
 
     .present__group-title {
         margin-bottom: 40px;
-    }
-
-    .present__description {
-        margin-bottom: 60px;
     }
 
     .present__about-title {
@@ -118,10 +110,6 @@
 
     .present__subtitle {
         font-size: 20px;
-    }
-
-    .present__description {
-        font-size: 18px;
     }
 }
 
